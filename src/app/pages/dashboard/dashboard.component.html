@@ -1,0 +1,21 @@
+<div class="dashboard">
+    <div class="btn-restart">
+        <button (click)="resetTamagotchi()">RECOMMENCER</button>
+    </div>
+    <div class="joueur-data" *ngIf="joueur">
+        <app-card-stat [titre]="'NIVEAU'" [data]='joueur.Niveau + "/999"' ></app-card-stat>
+        <app-card-stat [titre]="'EXPERIENCE'" [data]='joueur.Experience + "/250"'></app-card-stat>
+        <app-card-stat [titre]="'FAIM'" [data]='joueur.Faim + "/100"' ></app-card-stat>
+        <app-card-stat [titre]="'AMUSEMENT'" [data]='joueur.Amusement + "/100"' ></app-card-stat>
+        <app-card-stat [titre]="'FATIGUE'" [data]='joueur.Fatigue + "/100"' ></app-card-stat>
+        <app-card-stat [titre]="'ARGENT'" [data]='joueur.Argent + "/9999"' ></app-card-stat>
+    </div>
+
+    <div class="joueur-action">
+        <button class="button-action" (click)="newCycle(1)" >Manger</button>
+        <button class="button-action" (click)="newCycle(2)">Dormir</button>
+        <button class="button-action" (click)="newCycle(3)">Jouer</button>
+        <button class="button-action" (click)="newCycle(4)">Travailler</button>
+    </div>
+</div>  
+

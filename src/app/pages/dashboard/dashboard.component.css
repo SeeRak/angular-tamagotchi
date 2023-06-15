@@ -1,0 +1,57 @@
+.dashboard{
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn-restart{
+    width: 100%;
+    text-align: center;
+}
+
+.btn-restart button{
+    width: 50%;
+    background-color: #A7001E;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+
+.joueur-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.joueur-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-action{
+    margin: 30px auto;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #A7001E;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;    
+}
+
+.button-action:hover{
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+}

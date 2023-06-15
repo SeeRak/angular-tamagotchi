@@ -1,0 +1,14 @@
+{
+  "joueur": [
+    {
+      "Id": 1,
+      "Faim": 0,
+      "Amusement": 100,
+      "Fatigue": 0,
+      "Argent": 1590,
+      "Experience": 140,
+      "Niveau": 1,
+      "id": 1
+    }
+  ]
+}
